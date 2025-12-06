@@ -94,7 +94,7 @@ This design prevents the database from being exposed publicly.
 ---
 ## 📷 Architecture Diagram
 
-Add your diagram here:
+
 
 [ User ]
     |
