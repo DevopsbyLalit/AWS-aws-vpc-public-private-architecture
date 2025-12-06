@@ -92,5 +92,49 @@ Example:
 This design prevents the database from being exposed publicly.
 
 ---
+## 📷 Architecture Diagram
+
+Add your diagram here:
+
+[ User ]
+    |
+Internet
+    |
+Internet Gateway (IGW)
+    |
+Public VPC (10.0.0.0/16)
+       |
+    VPC Peering
+       |
+Private VPC (192.168.0.0/16)
+
+Add `architecture.png` to the repo.
+
+---
+## 📁 Project Structure
+
+aws-vpc-project/
+│── README.md
+│── architecture.png
+│── screenshots/
+│── terraform/ (optional)
+
+---
+
+## 🏁 Conclusion
+
+This project demonstrates how to design a secure and scalable AWS network using:
+- Public and Private VPCs
+- Internet isolation
+- VPC Peering
+- Correct routing and security
+
+This architecture is commonly used in real-world production systems for secure applications.
+
+---
+## 👤 Author
+
+**Name:** Lalit  
+**Project:** AWS VPC Public–Private Architecture
 
 
